@@ -1,0 +1,42 @@
+body{
+    background-image: linear-gradient(to right, rgb(170, 27, 27), black);
+
+}
+
+
+.sidebar {
+    position: fixed;
+    background-color: brown;
+    width: 425px;
+    height: 1000px;
+    top: 0;
+    left: 0;
+    padding: 12px;
+}
+
+.name_nav {
+    position: absolute;
+    background-color: rgb(180, 36, 55);
+    padding: 12px;
+    width: 400px;
+    height: 90px;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.name_nav h1 h3{
+    display: flex;
+   justify-content: center;
+}
+
+
+.sidebar .lore{
+    display: flex;
+    width: 300px;
+    height: 200px;
+    justify-content: center;
+    padding: 6px;
+    flex-direction: column;
+
+}
